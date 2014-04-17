@@ -11,6 +11,7 @@ requirejs.config({
 require(['jquery','pulsoviral'],function($,pv){
 	pv.init({
 		id:296, // Pulso ID
-		size:20 //Number of Twits
+		size:20, //Number of Twits
+		debug:true //use false in production 
 	});
 });
